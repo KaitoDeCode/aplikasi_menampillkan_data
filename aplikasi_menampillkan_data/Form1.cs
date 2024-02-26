@@ -69,5 +69,10 @@ namespace aplikasi_menampillkan_data
             warna.Text = "";
             kesimpulan.Text = "";
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
