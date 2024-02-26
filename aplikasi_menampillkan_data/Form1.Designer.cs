@@ -38,6 +38,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.kesimpulan = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -63,6 +64,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.warna);
             this.groupBox1.Controls.Add(this.label3);
@@ -118,7 +120,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(485, 26);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 91);
+            this.button1.Size = new System.Drawing.Size(101, 48);
             this.button1.TabIndex = 6;
             this.button1.Text = "Apply";
             this.button1.UseVisualStyleBackColor = true;
@@ -143,6 +145,16 @@
             this.kesimpulan.Size = new System.Drawing.Size(61, 13);
             this.kesimpulan.TabIndex = 0;
             this.kesimpulan.Text = "Kesimpulan";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(485, 80);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(101, 37);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Clear";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
@@ -173,6 +185,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label kesimpulan;
+        private System.Windows.Forms.Button button2;
     }
 }
 

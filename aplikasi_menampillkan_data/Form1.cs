@@ -61,5 +61,13 @@ namespace aplikasi_menampillkan_data
                 "Makanan favorite : "+ makananFav + "\n" +
                 "Warna favorite : "+ warnaFav;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            nama.Text = "";
+            makanan.Text = "";
+            warna.Text = "";
+            kesimpulan.Text = "";
+        }
     }
 }
